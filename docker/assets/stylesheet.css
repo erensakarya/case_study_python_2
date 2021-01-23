@@ -46,61 +46,6 @@ body {
     height: 80px;
 }
 
-/*Dropdown*/
-.setting-input {
-  width: 100% !important;
-  height: 100%;
-}
-
-.react-numeric-input, .react-numeric-input input {
-  width: 100% !important;
-}
-
-.react-numeric-input input {
-  background-color: #242633 !important;
-  border-color: darkgray !important;
-  color: white !important;
-}
-
-.react-numeric-input b:nth-child(2) i {
-  border-color: transparent transparent white !important;
-}
-
-.react-numeric-input b:nth-child(3) i {
-  border-color: white transparent transparent !important;
-}
-
-/* Dropdown
-----------------------------------------------*/
-
-/*Dropdown items*/
-.Select-control, .Select-multi-value-wrapper, .Select-menu-outer div {
-  background-color: black;
-}
-
-/*Dropdown items*/
-.Select-control, .Select, .Select-value-label, .Select-clear-zone {
-  color: white;
-}
-
-
-/*Dropdown items*/
-.Select-menu-outer {
-  background-color: #242633;
-  border: 1px solid darkgray !important;
-}
-
-/*Dropdown items*/
-.Select-menu-outer div:hover {
-  background-color: grey !important;
-  cursor: pointer;
-}
-
-/*Dropdown arrow + delete button*/
-.Select-control, .Select-control > span {
-  color: white;
-  background: #242633 !important;
-}
 
 /*Placeholder*/
 .Select.has-value.Select--single > .Select-control .Select-value .Select-value-label, .Select.has-value.is-pseudo-focused.Select--single > .Select-control .Select-value .Select-value-label {
@@ -130,3 +75,4 @@ body {
 
 .dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner input:not([type=radio]):not([type=checkbox]){
     color: yellow!important; font-size: 22px !important; font-weight: bold !important;
+}
