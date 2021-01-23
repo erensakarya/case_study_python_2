@@ -16,6 +16,9 @@ Instructions;
   
   Finally, generates .csv files from the related datas.
   
+  Important Note!
+  -  If the API Key does not work, you should be creating your own key from http://api.themoviedb.org/.
+  
 2) database codes;
   
     - Create a database.
