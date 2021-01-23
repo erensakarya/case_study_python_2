@@ -5,6 +5,7 @@ Finally, a flask code sample for displaying the desired table in a website app.
 
 Instructions;
 
+
 1) the_moviedb_api python code finds out the TV Series which have the standarts like below.
 
     - May be watched in Turkey.
@@ -18,6 +19,7 @@ Instructions;
   
   Important Note!
   -  If the API Key does not work, you should be creating your own key from http://api.themoviedb.org/.
+  
   
 2) database codes;
   
@@ -34,5 +36,6 @@ Instructions;
 
     - docker build -t flask_app -f Dockerfile .
     - docker run -d -p 8050:8050 --name flask_app flask_app
+    
     
 Cheers!
