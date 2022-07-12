@@ -201,5 +201,5 @@ frames = [directors_df_1, directors_df_2, directors_df_3, directors_df_4]
 
 directors_df = pd.concat(frames)
 
-directors_df.to_csv(r'***\fugo_games_case\database\directors.csv',
+directors_df.to_csv(r'***\database\directors.csv',
                     index=False)
