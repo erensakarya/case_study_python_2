@@ -2,7 +2,7 @@ import sqlite3
 import pandas as pd
 from pandas import DataFrame
 
-conn = sqlite3.connect('movie.db')
+conn = sqlite3.connect('movies.db')
 c = conn.cursor()
 
 read_tv_shows = pd.read_csv(r'***database\tv_shows.csv')
