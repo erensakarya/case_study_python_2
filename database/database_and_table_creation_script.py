@@ -1,6 +1,6 @@
 import sqlite3
 
-conn = sqlite3.connect('fugo_games_case.db')
+conn = sqlite3.connect('movies.db')
 c = conn.cursor()
 
 # Create table - TV_SHOWS
