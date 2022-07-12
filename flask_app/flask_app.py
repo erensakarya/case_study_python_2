@@ -9,7 +9,7 @@ import dash_core_components as dcc
 import dash_html_components as html
 import flask
 
-fugo_games_final_table = pd.read_csv('fugo_games_final_table.csv')
+final_table = pd.read_csv('final_table.csv')
 
 
 server = flask.Flask(__name__)
@@ -38,12 +38,10 @@ tab_selected_style = {
 
 app.layout = html.Div([
     html.Div([
-        html.H3('Fugo Games Case'),
+        html.H3('Case'),
         html.H4('''
         >>> SQL Tables' observation dashboard;
-        '''),
-        html.Img(
-            src="https://www.fugo.com.tr/images/logo_256.png"),
+        ''')
     ], className='banner'),
     html.Div([
         dash_table.DataTable(id='datatable-interactivity',
@@ -55,7 +53,7 @@ app.layout = html.Div([
                                  {"name": ["Popularity"], "id": "Popularity", "deletable": True},
                                  {"name": ["TV_Show_Name_Involved"], "id": "TV_Show_Name_Involved", "deletable": True}
                              ],
-                             data=fugo_games_final_table.to_dict('records'),
+                             data=final_table.to_dict('records'),
                              merge_duplicate_headers=True,
                              export_format='csv',
                              fixed_rows={'headers': True, 'data': 0},
