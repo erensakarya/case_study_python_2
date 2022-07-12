@@ -4,7 +4,7 @@ import dash_table
 import dash_html_components as html
 import flask
 
-fugo_games_final_table = pd.read_csv('fugo_games_final_table.csv')
+fugo_games_final_table = pd.read_csv('final_table.csv')
 
 
 server = flask.Flask(__name__)
