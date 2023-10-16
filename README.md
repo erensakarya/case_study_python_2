@@ -1,7 +1,7 @@
 # Python Case Study - 2
 
 In this repository, you may find some python codes in order to get data from themoviedb.org by using its own API and import these datas to a Database (Sqlite in my case).
-Finally, a flask code sample for displaying the desired table in a website app.
+Finally, a dashboard developed by Plotly Dash with Flask code.
 
 Instructions;
 
